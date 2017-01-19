@@ -95,5 +95,26 @@ git checkout <new-branch-name>
 git show <Commit_id>  			-- 			shows the changed performed in the commit
 
 
+ git log -n 1					- 			shows the last commit <last one commit>
+ 
+ 
+ 
+ git remote 				- 				checks what are the remotes which are connected 
+ 
+ git remote add origin https://github.com/KathiravanNatarajan/Titanic-Survival-exploration.git   -- 
+					origin is something like the name of the remote 
+					and <address of the git should be given as a parameter>
+					
+					
+					
+git remote -v 					- 			-v means verbose [Which has more information on the remote]
+
+
+git push origin master			-			origin(name of remote), master(master branch)
+											pushes the remote data into the github.com 
+											
+											
+											
+
 
 
