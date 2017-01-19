@@ -1,0 +1,76 @@
+Git Reflections : 
+--------------------
+
+
+git log :   you ll get all commits of the file/repo/project 
+
+git diff first_input second_input 
+
+
+when u faced some bug,  and if you know the particular stable version 
+
+
+git checkout <commit id>
+
+
+
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+  
+  
+git workspace setup : 
+
+	git-completion.bash.
+	git-prompt.sh.
+	.bash_profile
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Making git configurations 
+	------------------------------
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+
+in .bash_profile:
+
+alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+
+
+hidden files can be found by --      			ls -a 				in git bash 
+
+|					|				|					|
+|					|				|					|
+|	working dir   	|  stage area 	|	  Repository   	|
+|					|				|					|
+|					|				|					|
+|					|				|					|
+
+git init	-- initialise the git working repository with .git (hidden file )
+git add		-- adds files to the stage area  from working directory
+git status   -- 
+
+git commit   --   commits the files from staging area to the repository
+
+
+
+
+git diff 			-				 difference between working directory and stage area 
+
+git diff --stage    -				difference between stage area and repository
+
+
+git reset --hard    -  				 
