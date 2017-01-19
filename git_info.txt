@@ -30,14 +30,6 @@ git workspace setup :
 
 	
 	
-
-	
-	
-	
-	
-	
-	
-	
 	
 	Making git configurations 
 	------------------------------
@@ -73,7 +65,6 @@ git diff 			-				 difference between working directory and stage area
 git diff --staged    -				difference between stage area and repository
 
 
-<<<<<<< HEAD
 git reset --hard    -  				resetthe changes which are not commited or added to the staging area
 
 
@@ -91,26 +82,18 @@ Switched to branch 'easy-mode'
 
 
 
+git log --graph --oneline master easy-mode  		-  	helps with commit history when multiple users are working with the same file
 
 
 
-||||||| merged common ancestors
-git reset --hard    -  				resetthe changes which are not commited or added to the staging area
-=======
-git reset --hard    -  				resetthe changes which are not commited or added to the staging area
+git checkout -b <branch-name>
+						is equal to 
+						
+git branch <new-branch-name>
+git checkout <new-branch-name>
 
-
-git branch 			- 				display the branches are there in the working dir
-
-git branch <branch_name>	- 		creates the new branch
-
-
-
-git checkout easy-mode   	- 		   switch to another branch
-sunka@DESKTOP-4JR6FSK MINGW64 ~/Desktop/New Work (master)
-$ git checkout easy-mode
-Switched to branch 'easy-mode'
+git show <Commit_id>  			-- 			shows the changed performed in the commit
 
 
 
->>>>>>> easy-mode
+
