@@ -74,3 +74,18 @@ git diff --staged    -				difference between stage area and repository
 
 
 git reset --hard    -  				resetthe changes which are not commited or added to the staging area
+
+
+git branch 			- 				display the branches are there in the working dir
+
+git branch <branch_name>	- 		creates the new branch
+
+
+
+git checkout easy-mode   	- 		   switch to another branch
+sunka@DESKTOP-4JR6FSK MINGW64 ~/Desktop/New Work (master)
+$ git checkout easy-mode
+Switched to branch 'easy-mode'
+
+
+
